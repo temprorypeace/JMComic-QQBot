@@ -30,8 +30,13 @@
 
 4、同意安装NapCat 
 
+5、其它账号询问此用户即可，默认为 /jm id 的形式 
+
+6、机器人qq返回给你本子文件（只能返回一章节，可以根据需求修改）
+
 
 ## 项目来源参考文档
+### JMComic 爬取脚本文档
 https://github.com/hect0x7/JMComic-Crawler-Python/blob/master/README.md
-
+### 机器人脚本文档
 https://docs.ncatbot.xyz/
