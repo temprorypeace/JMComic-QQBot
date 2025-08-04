@@ -1,0 +1,37 @@
+client:
+  cache: null
+  domain: []
+  impl: api
+  postman:
+    meta_data:
+      headers: null
+      impersonate: chrome
+      proxies:
+        http: 127.0.0.1:7890
+        https: 127.0.0.1:7890
+    type: curl_cffi
+  retry_times: 5
+dir_rule:
+  base_dir: D:\Study\PythonAutomation\JMComic
+  rule: Bd_Pname
+download:
+  cache: true
+  image:
+    decode: true
+    suffix: null
+  threading:
+    image: 30
+    photo: 12
+log: true
+plugins:
+  valid: log
+  after_photo:
+  # 把章节的所有图片合并为一个pdf的插件
+  # 使用前需要安装依赖库: [pip install img2pdf]
+  - plugin: img2pdf
+    kwargs:
+      pdf_dir: D:/Study/PythonAutomation/JMComic/ # pdf存放文件夹
+      filename_rule: Pid # pdf命名规则，P代表photo, id代表使用photo.id也就是章节id
+      #encrypt: # pdf密码，可选配置项
+      #  password: 123 # 密码
+version: '2.1'
