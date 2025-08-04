@@ -2,6 +2,7 @@
 利用Python API for JMComic + NapCat+NcatBot完成qq对话中自动获取本子资源机器人
 
 实现效果，根据特定询问，机器人账号QQ将会返回给你id对应的本子文件（可以设定为群机器人），文件类型为PDF
+
 ---
 ## 文件介绍
 1、推荐 python >3.10 
